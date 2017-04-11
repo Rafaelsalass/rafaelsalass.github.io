@@ -12,17 +12,29 @@ p{
 }
 
 .card{
-    margin-top: 60px;
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     min-width: 8em;
     max-width: 30em;
-    background-color: #f2f2f2;
-    border-radius: 2px;
-    transition: background-color .3s;
     box-shadow: 0 0 10px #d9d9d9;
 }
 
 body{
     background-color: white;
+    font-family: sans-serif;
+}
+
+#social_icons{
+    background-color: #f2f2f2;
+}
+
+#description{
+    background-color: #f2f2f2;
+    margin-top: 45px;
+}
+
+a{
+    text-decoration: none;
+    color: #4d4d4d;
 }
